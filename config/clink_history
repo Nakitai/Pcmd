@@ -1,0 +1,123 @@
+|CTAG_1629129767_22929578_6700_0
+|.
+|s
+|s
+|ir
+clear
+e.
+/config 
+cd "ConEmuPack.210718
+|ir
+ConEmu64.exe /config /config/ConEmu.xml
+clink
+oami
+|hoami
+cat
+|s
+cd /d C:\Users\Puppet\Desktop\coreutils-5.3.0-bin\bin
+|s
+|s --color
+whoami 
+[
+[hellow
+[:123
+[:e
+[:E
+[:E\
+basename.exe
+|ir
+dir /?
+dir.exe 
+dir.exe /?
+dircolors.exe
+dircolors.exe /?
+dirname.exe 
+dirname.exe --help
+du
+env
+expand
+expr.exe 
+expr.exe --help
+logname.exe 
+mv
+pwd
+|hoami
+cat
+cat cat.exe 
+cat 1.txt
+cat ..\..\1.txt 
+|s
+|s
+|s --color
+|s --show-control-chars --color
+|s --show-control-chars
+|s
+|s
+|ir
+|aht
+paht
+|ath
+chcp
+|s --show-control-chars
+|s --show-control-chars
+ls --show-control-chars
+ls --show-control-chars -a
+ls --show-control-chars -al
+|s
+ls -color
+|s --color
+|s
+chcp 
+chcp utf8
+|s
+ls --show-control -chars --color=auto
+ls --show-control -chars --color
+|s --show-control-chars --color
+ls --show-control-chars --color
+|s
+|s
+|s
+ls -vv
+ls -help
+|s --help
+|s -l
+|s
+ls --help
+|s --color
+dir
+cd /d C:\Users\Puppet\Desktop\Pcmd\base\coreutils\bin
+|s
+|s --color
+|s
+ls -l
+|s
+ls --color
+|it
+ls
+gepd
+gred
+bunzip
+bunzip2.exe 
+cat 
+id
+passwd
+|eek
+|eek
+geek
+|ho
+|ho
+winsys
+windwos
+windir
+path
+|et
+|hoami
+|et
+whoami
+who
+set
+|hoami
+whoami
+git
+|hoami
+whoami
