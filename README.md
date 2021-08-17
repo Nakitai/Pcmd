@@ -1,6 +1,6 @@
 # Pcmd
 # 1.0 前言
- >本人是 `PentestBox` 的忠实用户，使用了也有3年多了吧，毋庸置疑 `PentestBox` 是强大的但是原作者已经不更新了，很多工具都没>用也很老了，也太臃肿了，而且他也是用的`ConEmu`封装, 所以我想用`ConEmu`自己做一个，于是就通过`ConEmu` 二次编译成 `Pcmd`, 目前还有很多环境没有加入，java python go 这些，后期慢慢加入。
+ >本人是 `PentestBox` 的忠实用户，使用了也有3年多了吧，毋庸置疑 `PentestBox` 是强大的但是原作者已经不更新了，很多工具都没用也很老了，也太臃肿了，而且他也是用的`ConEmu`封装, 所以我想用`ConEmu`自己做一个，于是就通过`ConEmu` 二次编译成 `Pcmd`, 目前还有很多环境没有加入，java python go 这些，后期慢慢加入。
 
 # 2.0 使用
 - 运行 `Pcmd.exe` 或 `Pcmd64.exe`, 基础操作命令同 `cmd` 相同，部分 `Linux` 命令如 `ls` 等。
