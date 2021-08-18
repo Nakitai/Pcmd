@@ -58,8 +58,9 @@ PROMPT %ConEmuPrompt1%%ConEmuPrompt2%%ConEmuPrompt3%
 
 set base=%ConEmuDir%\base
 set tools=%ConEmuDir%\tools
+set git_path=%base%\PortableGit
 :: 自定义的环境变量
-@set PATH=%SystemRoot%\System32;%base%\coreutils\bin
+@set PATH=%SystemRoot%\System32;%git_path%\bin;%git_path%\cmd;%git_path%\mingw64;%git_path%\usr\bin;
 
 :end_git
 rem Support additional batch execution as `{cmd} "path\to\batch.cmd" <arguments>`

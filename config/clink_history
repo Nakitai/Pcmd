@@ -17,7 +17,7 @@ cat
 cd /d C:\Users\Puppet\Desktop\coreutils-5.3.0-bin\bin
 |s
 |s --color
-whoami 
+|hoami 
 [
 [hellow
 [:123
@@ -93,7 +93,7 @@ ls -l
 |s
 ls --color
 |it
-ls
+|s
 gepd
 gred
 bunzip
@@ -114,7 +114,7 @@ path
 |hoami
 |et
 whoami
-who
+|ho
 set
 |hoami
 whoami
@@ -122,3 +122,7 @@ git
 |hoami
 whoami
 geek
+ls
+who
+whoami 
+git 
