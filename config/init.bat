@@ -56,11 +56,17 @@ PROMPT %ConEmuPrompt1%%ConEmuPrompt2%%ConEmuPrompt3%
 @"%ConEmuDir%\base\clink\clink_x%architecture%.exe" inject --quiet --nolog --profile "%ConEmuDir%\config"
 @doskey /macrofile="%ConEmuDir%\config\doskey.config"
 
+:: 自定义的环境变量
 set base=%ConEmuDir%\base
 set tools=%ConEmuDir%\tools
 set git_path=%base%\PortableGit
-:: 自定义的环境变量
-@set PATH=%SystemRoot%\System32;%git_path%\bin;%git_path%\cmd;%git_path%\mingw64;%git_path%\usr\bin;
+set br=%tools%\BurpSuitePro
+@set PATH=%SystemRoot%\System32;%git_path%\bin;%git_path%\cmd;%git_path%\mingw64;%git_path%\usr\bin;%br%\jre\bin
+
+@if not exist %br%\burpbrowser\92.0.4515.131\chrome.dll (
+	@expand %br%\burpbrowser\92.0.4515.131\chrome.zip %br%\burpbrowser\92.0.4515.131\chrome.dll
+	@cls
+	)
 
 :end_git
 rem Support additional batch execution as `{cmd} "path\to\batch.cmd" <arguments>`

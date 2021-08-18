@@ -3,7 +3,7 @@
 |s
 |s
 |ir
-clear
+|lear
 e.
 /config 
 cd "ConEmuPack.210718
@@ -121,8 +121,87 @@ whoami
 git
 |hoami
 whoami
-geek
+|eek
 ls
 who
 whoami 
 git 
+cd Pcmd
+|it commit -m "删除 coreutils 采用 PortableGit 替代"
+|it add .
+git commit -m "删除 coreutils 采用 PortableGit 替代"
+git commit -a -m "删除 coreutils 采用 PortableGit 替代"
+|it push
+|d "Pcmd
+|it status
+|it add .
+m“
+|lear
+csl
+|ls
+|lear
+whoami 
+geek
+java
+|ava 
+java 
+java15
+|d "Pcmd
+cd tools\
+cd BurpSuitePro\
+|lear
+|ava15 -jar burploader.jar 
+java15 -jar burploader.jar 
+cd ../../
+cd ../
+cls
+java15 -noverify --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:"%br%/BurpSuiteCn.jar" -javaagent:"%br%/burploader.jar" -jar "%br%/burpsuite_pro.jar"
+java15 -noverify --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:"%br%\BurpSuiteCn.jar" -javaagent:"%br%\burploader.jar" -jar "%br%\burpsuite_pro.jar"
+|urpsuite
+|urpsuite
+|urpsuite
+|urpsuite
+|urpsuite
+|urpsuite
+|urpsuite
+|urpsuite
+|urpsuite
+|urpsuite
+|urpsuite
+|urpsuite
+|urpsuite
+burpsuitezh
+git lfs
+|it lfs track "tools/BurpSuitePro/burpbrowser/92.0.4515.131/chrome.dll"
+|d Pcmd\
+git lfs track "tools/BurpSuitePro/burpbrowser/92.0.4515.131/chrome.dll"
+|it push
+git config http.postBuffer 524288000
+git config -l
+|lear
+|it push
+|urpsuite
+burpsuite
+|it filter-branch --force --index-filter "git rm -rf --cached --ignore-unmatch tools/BurpSuitePro/burpbrowser/92.0.4515.131/chrome.dll" --prune-empty --tag-name-filter cat -- --all
+git filter-branch --force --index-filter "git rm -rf --cached --ignore-unmatch tools/BurpSuitePro/burpbrowser/92.0.4515.131/chrome.dll" --prune-empty --tag-name-filter cat -- --all
+|it status
+|it status
+|lear
+|it status
+git restore tools/BurpSuitePro/burpbrowser/92.0.4515.131/chrome.dll
+|it status
+|it status
+|it status
+cd Pcmd\
+|it status
+|it status
+|it add .
+|it add .
+git push
+|it status
+cd "Pcmd
+|it status
+git add .
+git rm -rf --cached .
+clear
+git status

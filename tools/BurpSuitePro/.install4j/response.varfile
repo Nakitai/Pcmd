@@ -1,0 +1,9 @@
+# install4j response file for Burp Suite Professional 2021.8.1
+sys.adminRights$Boolean=false
+sys.fileAssociation.extensions$StringArray="burp"
+sys.fileAssociation.launchers$StringArray="70"
+sys.installationDir=F\:\\Tools\\BurpSuitePro
+sys.languageId=en
+sys.programGroupAllUsers$Boolean=true
+sys.programGroupDisabled$Boolean=true
+sys.programGroupName=Burp Suite Professional

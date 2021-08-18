@@ -1,0 +1,469 @@
+[INFO] logger started at Wed Aug 18 19:58:19 CST 2021
+[INFO] executable name: F:\Tools\burpsuite_pro_windows-x64_v2021_8_1.exe
+[INFO] install4j version: 8.0.11 (build 8268)
+[INFO] Properties: 
+-- listing properties --
+java.specification.version=15
+sun.cpu.isalist=amd64
+sun.jnu.encoding=GBK
+java.class.path=C:\Users\Puppet\AppData\Local\Temp\e4...
+sun.awt.enableExtraMouseButtons=true
+java.vm.vendor=Oracle Corporation
+sun.arch.data.model=64
+install4j.exeDir=F:\Tools\
+user.variant=
+java.vendor.url=https://java.oracle.com/
+user.timezone=Asia/Shanghai
+java.vm.specification.version=15
+os.name=Windows 10
+user.country=CN
+sun.boot.library.path=c:\users\puppet\appdata\local\temp\e4...
+sun.java.command=F:\Tools\burpsuite_pro_windows-x64_v2...
+jdk.debug=release
+sun.cpu.endian=little
+exe4j.unextractedPosition=106510574
+user.home=C:\Users\Puppet
+user.language=zh
+java.specification.vendor=Oracle Corporation
+java.version.date=2021-01-19
+java.home=c:\users\puppet\appdata\local\temp\e4...
+file.separator=\
+java.vm.compressedOopsMode=Zero based
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+java.specification.name=Java Platform API Specification
+exe4j.moduleName=F:\Tools\burpsuite_pro_windows-x64_v2...
+exe4j.tempDir=C:\Users\Puppet\AppData\Local\Temp\e4...
+user.script=
+exe4j.consoleCodepage=cp0
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+exe4j.isInstall4j=true
+java.runtime.version=15.0.2+7-27
+user.name=Puppet
+path.separator=;
+os.version=10.0
+java.runtime.name=OpenJDK Runtime Environment
+file.encoding=GBK
+java.vm.name=OpenJDK 64-Bit Server VM
+exe4j.semaphoreName=Local\f:_tools_burpsuite_pro_windows-...
+install4j.appDir=C:\Users\Puppet\AppData\Local\Temp\
+java.vendor.url.bug=https://bugreport.java.com/bugreport/
+java.io.tmpdir=C:\Users\Puppet\AppData\Local\Temp\
+java.version=15.0.2
+user.dir=C:\Users\Puppet\AppData\Local\Temp\e4...
+os.arch=amd64
+java.vm.specification.name=Java Virtual Machine Specification
+sun.os.patch.level=
+java.library.path=c:\users\puppet\appdata\local\temp\e4...
+java.vm.info=mixed mode
+java.vendor=Oracle Corporation
+java.vm.version=15.0.2+7-27
+sun.io.unicode.encoding=UnicodeLittle
+java.class.version=59.0
+exe4j.launchName=F:\Tools\burpsuite_pro_windows-x64_v2...
+[INFO] Variable changed: sys.resolveUserSpecificInstallationDir=false[class java.lang.String]
+[INFO] my modules file C:\Users\Puppet\AppData\Local\Temp\e4j45CE.tmp_dir1629287897\jre\lib\modules, \Device\HarddiskVolume3\Users\Puppet\AppData\Local\Temp\e4j45CE.tmp_dir1629287897\jre\lib\modules
+[INFO] com.install4j.runtime.beans.actions.misc.RequestPrivilegesAction [ID 13]: Execute action
+       Property allRequested: false
+       Property failIfNotObtainedMac: false
+       Property failIfNotObtainedWin: false
+       Property failIfNotRootUnix: false
+       Property obtainIfAdminMac: false
+       Property obtainIfAdminWin: false
+       Property obtainIfNormalMac: false
+       Property obtainIfNormalWin: false
+       Property rollbackSupported: false
+       Property updateInstallationDirectory: true
+       Variable changed: sys.resolveUserSpecificInstallationDir=true[class java.lang.Boolean]
+       Variable changed: sys.installationDir=C:\Users\Puppet\AppData\Local\Programs\BurpSuitePro[class java.lang.String]
+       Execute action successful after 7 ms
+[INFO] com.install4j.runtime.beans.screens.StartupScreen [ID 1]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: Show screen
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 4]: Show screen
+       Variable changed: sys.installationDir=F:\Tools\BurpSuitePro[class java.lang.String]
+       checking writable with maximum
+[INFO] com.install4j.runtime.beans.actions.misc.LoadResponseFileAction [ID 5]: Execute action
+       Property excludedVariables: [sys.installationDir]
+       Property file: null
+       Property overwriteStrategy: Do not overwrite command line
+       Property registerForResponseFile: true
+       Property rollbackSupported: false
+       Response file F:\Tools\BurpSuitePro\.install4j\response.varfile does not exist
+       Execute action successful after 2 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 4]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FileAssociationsScreen [ID 1105]: Show screen
+       Variable changed: sys.fileAssociation.extensions=[burp][class [Ljava.lang.String;]
+       Variable changed: sys.fileAssociation.launchers=[70][class [Ljava.lang.String;]
+[INFO] com.install4j.runtime.beans.screens.FileAssociationsScreen [ID 1105]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 7]: Show screen
+       Variable changed: sys.programGroupName=Burp Suite Professional[class java.lang.String]
+       Variable changed: sys.programGroupDisabled=true[class java.lang.Boolean]
+       Variable changed: sys.programGroupAllUsers=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 7]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Show screen
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction [ID 9]: Execute action
+       Property directoryResolverScript: null
+       Property fileFilterScript: null
+       Property sizeCalculatorScript: null
+       Property acceptAllCertificates: false
+       Property checkFreeSpace: true
+       Property delay: false
+       Property installRuntime: true
+       Property rollbackSupported: true
+       Property saveDownloadedFiles: false
+       Property showFileNames: false
+       Property triggerReboot: true
+       Property updateBundledJre: true
+       Property validateApplicationId: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-core-console-l1-1-0.dll; size: 12224 bytes; exists: false
+       File options set to: [fileTime: Wed Aug 18 19:58:17 CST 2021, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-core-console-l1-2-0.dll; size: 12224 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-core-datetime-l1-1-0.dll; size: 11712 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-core-debug-l1-1-0.dll; size: 11720 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-core-errorhandling-l1-1-0.dll; size: 11720 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-core-file-l1-1-0.dll; size: 15304 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-core-file-l1-2-0.dll; size: 11712 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-core-file-l2-1-0.dll; size: 11720 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-core-handle-l1-1-0.dll; size: 11720 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-core-heap-l1-1-0.dll; size: 12232 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-core-interlocked-l1-1-0.dll; size: 11712 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-core-libraryloader-l1-1-0.dll; size: 12736 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-core-localization-l1-2-0.dll; size: 14280 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-core-memory-l1-1-0.dll; size: 12224 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-core-namedpipe-l1-1-0.dll; size: 11720 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-core-processenvironment-l1-1-0.dll; size: 12744 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-core-processthreads-l1-1-0.dll; size: 14272 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-core-processthreads-l1-1-1.dll; size: 12232 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-core-profile-l1-1-0.dll; size: 11200 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-core-rtlsupport-l1-1-0.dll; size: 12224 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-core-string-l1-1-0.dll; size: 11720 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-core-synch-l1-1-0.dll; size: 13760 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-core-synch-l1-2-0.dll; size: 12232 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-core-sysinfo-l1-1-0.dll; size: 12744 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-core-timezone-l1-1-0.dll; size: 12232 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-core-util-l1-1-0.dll; size: 11720 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-crt-conio-l1-1-0.dll; size: 12744 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-crt-convert-l1-1-0.dll; size: 15816 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-crt-environment-l1-1-0.dll; size: 12232 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-crt-filesystem-l1-1-0.dll; size: 13768 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-crt-heap-l1-1-0.dll; size: 12744 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-crt-locale-l1-1-0.dll; size: 12232 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-crt-math-l1-1-0.dll; size: 20928 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-crt-multibyte-l1-1-0.dll; size: 19904 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-crt-private-l1-1-0.dll; size: 64456 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-crt-process-l1-1-0.dll; size: 12736 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-crt-runtime-l1-1-0.dll; size: 16328 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-crt-stdio-l1-1-0.dll; size: 17864 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-crt-string-l1-1-0.dll; size: 18368 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-crt-time-l1-1-0.dll; size: 14280 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\api-ms-win-crt-utility-l1-1-0.dll; size: 12224 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\awt.dll; size: 1413768 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\fontmanager.dll; size: 662664 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\freetype.dll; size: 534152 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\instrument.dll; size: 47752 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\j2gss.dll; size: 47240 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\j2pkcs11.dll; size: 73864 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\jaas.dll; size: 24200 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\jabswitch.exe; size: 41608 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\jaccessinspector.exe; size: 103560 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\jaccesswalker.exe; size: 68232 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\java.dll; size: 141960 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\java.exe; size: 46216 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\javaaccessbridge.dll; size: 286344 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\javajpeg.dll; size: 175752 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\javaw.exe; size: 46216 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\jawt.dll; size: 18056 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\jimage.dll; size: 31368 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\jli.dll; size: 84616 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\jrunscript.exe; size: 20616 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\jsound.dll; size: 57480 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\keytool.exe; size: 20616 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\kinit.exe; size: 20616 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\klist.exe; size: 20616 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\ktab.exe; size: 20616 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\lcms.dll; size: 243336 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\management.dll; size: 25736 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\management_ext.dll; size: 32392 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\mlib_image.dll; size: 506504 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\msvcp140.dll; size: 590112 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\net.dll; size: 92296 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\nio.dll; size: 63624 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\prefs.dll; size: 22152 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\rmi.dll; size: 17544 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\rmid.exe; size: 20616 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\rmiregistry.exe; size: 20616 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\server\jvm.dll; size: 11396232 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\splashscreen.dll; size: 214664 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\sspi_bridge.dll; size: 41096 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\sunec.dll; size: 148616 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\sunmscapi.dll; size: 43144 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\ucrtbase.dll; size: 1011656 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\vcruntime140.dll; size: 100880 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\vcruntime140_1.dll; size: 44320 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\verify.dll; size: 50824 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\w2k_lsa_auth.dll; size: 27784 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\windowsaccessbridge-64.dll; size: 69256 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\bin\zip.dll; size: 83080 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\conf\logging.properties; size: 2733 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\conf\net.properties; size: 6171 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\conf\security\java.policy; size: 2180 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\conf\security\java.security; size: 56472 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\conf\security\policy\limited\default_local.policy; size: 647 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\conf\security\policy\limited\default_US_export.policy; size: 146 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\conf\security\policy\limited\exempt_local.policy; size: 566 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\conf\security\policy\README.txt; size: 2390 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\conf\security\policy\unlimited\default_local.policy; size: 193 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\conf\security\policy\unlimited\default_US_export.policy; size: 146 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\conf\sound.properties; size: 1210 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\include\classfile_constants.h; size: 22155 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\include\jawt.h; size: 12458 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\include\jni.h; size: 75678 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\include\jvmti.h; size: 84416 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\include\jvmticmlr.h; size: 4771 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\include\win32\bridge\AccessBridgeCallbacks.h; size: 5518 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\include\win32\bridge\AccessBridgeCalls.h; size: 36093 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\include\win32\bridge\AccessBridgePackages.h; size: 77582 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\include\win32\jawt_md.h; size: 1895 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\include\win32\jni_md.h; size: 1580 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.base\ADDITIONAL_LICENSE_INFO; size: 2114 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.base\aes.md; size: 1444 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.base\asm.md; size: 1584 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.base\ASSEMBLY_EXCEPTION; size: 1522 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.base\c-libutl.md; size: 1556 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.base\cldr.md; size: 9130 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.base\icu.md; size: 11086 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.base\LICENSE; size: 19274 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.base\public_suffix.md; size: 17785 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.base\unicode.md; size: 2384 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.base\zlib.md; size: 1011 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.compiler\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.compiler\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.compiler\LICENSE; size: 33 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.datatransfer\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.datatransfer\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.datatransfer\LICENSE; size: 33 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.desktop\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.desktop\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.desktop\colorimaging.md; size: 167 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.desktop\freetype.md; size: 28780 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.desktop\giflib.md; size: 1288 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.desktop\harfbuzz.md; size: 2753 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.desktop\jpeg.md; size: 3475 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.desktop\lcms.md; size: 1177 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.desktop\libpng.md; size: 5398 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.desktop\LICENSE; size: 33 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.desktop\mesa3d.md; size: 5732 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.instrument\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.instrument\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.instrument\LICENSE; size: 33 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.logging\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.logging\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.logging\LICENSE; size: 33 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.management\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.management\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.management\LICENSE; size: 33 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.management.rmi\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.management.rmi\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.management.rmi\LICENSE; size: 33 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.naming\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.naming\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.naming\LICENSE; size: 33 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.net.http\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.net.http\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.net.http\LICENSE; size: 33 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.prefs\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.prefs\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.prefs\LICENSE; size: 33 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.rmi\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.rmi\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.rmi\LICENSE; size: 33 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.scripting\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.scripting\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.scripting\LICENSE; size: 33 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.se\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.se\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.se\LICENSE; size: 33 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.security.jgss\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.security.jgss\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.security.jgss\LICENSE; size: 33 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.security.sasl\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.security.sasl\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.security.sasl\LICENSE; size: 33 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.sql\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.sql\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.sql\LICENSE; size: 33 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.sql.rowset\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.sql.rowset\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.sql.rowset\LICENSE; size: 33 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.transaction.xa\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.transaction.xa\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.transaction.xa\LICENSE; size: 33 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.xml\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.xml\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.xml\bcel.md; size: 11503 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.xml\dom.md; size: 3028 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.xml\jcup.md; size: 1158 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.xml\LICENSE; size: 33 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.xml\xalan.md; size: 13494 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.xml\xerces.md; size: 11852 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.xml.crypto\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.xml.crypto\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.xml.crypto\LICENSE; size: 33 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\java.xml.crypto\santuario.md; size: 11436 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\jdk.accessibility\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\jdk.accessibility\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\jdk.accessibility\LICENSE; size: 33 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\jdk.charsets\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\jdk.charsets\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\jdk.charsets\LICENSE; size: 33 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\jdk.crypto.cryptoki\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\jdk.crypto.cryptoki\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\jdk.crypto.cryptoki\LICENSE; size: 33 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\jdk.crypto.cryptoki\pkcs11cryptotoken.md; size: 1858 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\jdk.crypto.cryptoki\pkcs11wrapper.md; size: 2131 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\jdk.crypto.ec\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\jdk.crypto.ec\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\jdk.crypto.ec\ecc.md; size: 29672 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\jdk.crypto.ec\LICENSE; size: 33 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\jdk.crypto.mscapi\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\jdk.crypto.mscapi\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\jdk.crypto.mscapi\LICENSE; size: 33 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\jdk.management\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\jdk.management\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\jdk.management\LICENSE; size: 33 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\jdk.security.auth\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\jdk.security.auth\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\jdk.security.auth\LICENSE; size: 33 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\jdk.security.jgss\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\jdk.security.jgss\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\jdk.security.jgss\LICENSE; size: 33 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\jdk.unsupported\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\jdk.unsupported\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\jdk.unsupported\LICENSE; size: 33 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\jdk.zipfs\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\jdk.zipfs\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\legal\jdk.zipfs\LICENSE; size: 33 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\lib\classlist; size: 41588 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\lib\fontconfig.bfc; size: 4630 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\lib\fontconfig.properties.src; size: 12345 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\lib\jawt.lib; size: 1682 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\lib\jrt-fs.jar; size: 107503 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\lib\jvm.cfg; size: 29 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\lib\jvm.lib; size: 898998 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\lib\modules; size: 68127910 bytes; exists: false
+       File options set to: [fileTime: Wed Aug 18 19:58:18 CST 2021, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: F:\Tools\BurpSuitePro\jre\lib\psfont.properties.ja; size: 3793 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\lib\psfontj2d.properties; size: 11390 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\lib\security\blacklisted.certs; size: 2527 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\lib\security\cacerts; size: 106474 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\lib\security\default.policy; size: 10248 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\lib\security\public_suffix_list.dat; size: 234478 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\lib\tzdb.dat; size: 107853 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\lib\tzmappings; size: 22086 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\jre\release; size: 491 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\.install4j\bgupdater.exe; size: 744376 bytes; exists: false
+       File options set to: [fileTime: Thu Aug 12 00:37:44 CST 2021, mode: 755, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: F:\Tools\BurpSuitePro\.install4j\i4jdel.exe; size: 91168 bytes; exists: false
+       File options set to: [fileTime: Thu Aug 12 00:37:44 CST 2021, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: F:\Tools\BurpSuitePro\.install4j\i4jinst.dll; size: 179096 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\BurpSuitePro.exe; size: 380344 bytes; exists: false
+       File options set to: [fileTime: Thu Aug 12 00:37:44 CST 2021, mode: 755, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: F:\Tools\BurpSuitePro\BurpSuitePro.vmoptions; size: 308 bytes; exists: false
+       File options set to: [fileTime: Thu Aug 12 00:37:44 CST 2021, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: F:\Tools\BurpSuitePro\burpsuite_pro.jar; size: 70921526 bytes; exists: false
+       File options set to: [fileTime: Thu Aug 12 00:37:44 CST 2021, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: F:\Tools\BurpSuitePro\chromium-win64-92.0.4515.131.zip; size: 114682788 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\uninstall.exe; size: 744376 bytes; exists: false
+       File options set to: [fileTime: Thu Aug 12 00:37:44 CST 2021, mode: 700, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: F:\Tools\BurpSuitePro\.install4j\inst_jre.cfg; size: 66 bytes; exists: false
+       File options set to: [fileTime: Wed Aug 18 19:59:20 CST 2021, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: F:\Tools\BurpSuitePro\.install4j\pref_jre.cfg; size: 27 bytes; exists: false
+       File options set to: [fileTime: Wed Aug 18 19:59:20 CST 2021, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: F:\Tools\BurpSuitePro\.install4j\i4jruntime.jar; size: 2537679 bytes; exists: false
+       File options set to: [fileTime: Wed Aug 18 19:59:20 CST 2021, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: F:\Tools\BurpSuitePro\.install4j\MessagesDefault; size: 34423 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\.install4j\i4jparams.conf; size: 82349 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\.install4j\stats.properties; size: 279 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\.install4j\launchers.xml; size: 218 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\.install4j\user.jar; size: 20939 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\.install4j\i4j_extf_0_1dgj151.utf8; size: 34423 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\.install4j\i4j_extf_10_1dgj151_vd2dea.png; size: 1187 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\.install4j\i4j_extf_11_1dgj151_un9apv.png; size: 1884 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\.install4j\i4j_extf_12_1dgj151_1xth8wx.png; size: 4609 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\.install4j\i4j_extf_13_1dgj151_259ij1.png; size: 8252 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\.install4j\i4j_extf_14_1dgj151_18gg8kx.png; size: 9202 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\.install4j\i4j_extf_14_1dgj151_18gg8kx@2x.png; size: 15419 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\.install4j\i4j_extf_1_1dgj151.properties; size: 810 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\.install4j\i4j_extf_2_1dgj151_1otyg19.png; size: 183 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\.install4j\i4j_extf_3_1dgj151_1bokdka.png; size: 282 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\.install4j\i4j_extf_4_1dgj151_1sfn47o.png; size: 254 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\.install4j\i4j_extf_5_1dgj151_uiqkg8.png; size: 443 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\.install4j\i4j_extf_6_1dgj151_jehl3v.png; size: 408 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\.install4j\i4j_extf_7_1dgj151_155a7zr.icns; size: 173940 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\.install4j\i4j_extf_8_1dgj151_bs6coc.ico; size: 19593 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\.install4j\i4j_extf_9_1dgj151_x7nby6.png; size: 756 bytes; exists: false
+       Install file: F:\Tools\BurpSuitePro\.install4j\installer.ico; size: 33750 bytes; exists: false
+       Execute action successful after 14258 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction [ID 11]: Execute action
+       Property icon: null
+       Property iconSource: Installer icon
+       Property itemName: Burp Suite Professional 2021.8.1
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Execute action successful after 4 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateFileAssociationAction [ID 1108]: Execute action
+       Property description: Burp Suite Project File
+       Property extension: burp
+       Property launcherId: 70
+       Property macIconFile: i4j_extf_7_1dgj151_155a7zr.icns
+       Property macRole: Editor
+       Property persistentProperties: {}
+       Property unixIconFile: i4j_extf_6_1dgj151_jehl3v.png
+       Property unixMimeType: application/x-extension-burp
+       Property winAdditionalParameters: 
+       Property windowsIconFile: i4j_extf_8_1dgj151_bs6coc.ico
+       Property mac: true
+       Property restartFinder: false
+       Property rollbackSupported: true
+       Property selected: true
+       Property unix: true
+       Property windows: true
+       using internal name BurpSuitePro
+       Execute action successful after 6 ms
+[INFO] com.install4j.runtime.beans.actions.files.DeleteFileAction [ID 761]: Execute action
+       Property directoryFilter: null
+       Property fileFilter: null
+       Property files: [F:\Tools\BurpSuitePro\burpbrowser]
+       Property filesRoot: null
+       Property backupForRollback: true
+       Property recursive: true
+       Property rollbackSupported: true
+       Property showFileNames: true
+       Property showProgress: false
+       The file "F:\Tools\BurpSuitePro\burpbrowser" does not exist
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 599]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_11
+       Property rollbackSupported: false
+       Execute action successful after 4288 ms
+[INFO] com.install4j.runtime.beans.actions.files.DeleteFileAction [ID 680]: Execute action
+       Property directoryFilter: null
+       Property fileFilter: null
+       Property files: [chromium-win64-92.0.4515.131.zip]
+       Property filesRoot: null
+       Property backupForRollback: true
+       Property recursive: false
+       Property rollbackSupported: true
+       Property showFileNames: true
+       Property showProgress: false
+       Backing up F:\Tools\BurpSuitePro\chromium-win64-92.0.4515.131.zip
+       Execute action successful after 76 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Rollback barrier reached
+       command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 12]: Show screen
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 12]: command: finish
+       cleaning up
+       Finished
