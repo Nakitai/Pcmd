@@ -20,5 +20,8 @@ geek = "%tools%/geek/geek.exe" $T
 
 # 更新日志
 - 2021-08-19
-  1. 使用 `PortableGit` 代替 `coreutils`。
-  2. 添加 `burpsuite` 工具，使用 `burpsuite` 启动英文版，使用 `burpsuitezh` 启动汉化版。
+  -  使用 `PortableGit` 代替 `coreutils`。
+  -  添加 `burpsuite` 工具，使用 `burpsuite` 启动英文版，使用 `burpsuitezh` 启动汉化版。
+- 2021-08-20
+  - 添加 `hfs` 轻量级文件服务器工具，命令行使用  `hfs` 启动。
+  - 添加 `winhex` 二进制查看修改工具，命令行使用 `winhex` 启动。
