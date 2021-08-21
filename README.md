@@ -25,3 +25,6 @@ geek = "%tools%/geek/geek.exe" $T
 - 2021-08-20
   - 添加 `hfs` 轻量级文件服务器工具，命令行使用  `hfs` 启动。
   - 添加 `winhex` 二进制查看修改工具，命令行使用 `winhex` 启动。
+- 2021-08-21
+  - 添加 `python` 环境，命令行使用 `python` 启动
+  - 添加 `sqlmap` SQL注入检测工具，使用 `sqlmap` 启动工具。

@@ -61,8 +61,9 @@ set base=%ConEmuDir%\base
 set tools=%ConEmuDir%\tools
 set git_path=%base%\PortableGit
 set br=%tools%\BurpSuitePro
-@set PATH=%SystemRoot%\System32;%git_path%\bin;%git_path%\cmd;%git_path%\mingw64;%git_path%\usr\bin;%br%\jre\bin
+@set PATH=%SystemRoot%\System32;%base%\python27;%git_path%\bin;%git_path%\cmd;%git_path%\mingw64;%git_path%\usr\bin;%br%\jre\bin
 
+rem 这里是作用释放 chrome.dll 因为 github 不能上传超过 100mb 的文件, 而 burpsuite 内置浏览器 会依赖这个
 @if not exist %br%\burpbrowser\92.0.4515.131\chrome.dll (
 	@expand %br%\burpbrowser\92.0.4515.131\chrome.zip %br%\burpbrowser\92.0.4515.131\chrome.dll
 	@cls

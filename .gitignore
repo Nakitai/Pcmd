@@ -1,2 +1,3 @@
-config/clink_history*
+config/clink_*
 tools/BurpSuitePro/burpbrowser/92.0.4515.131/chrome.dll
+tools/sqlmap/output/
