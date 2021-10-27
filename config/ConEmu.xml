@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2021-08-31 16:22:20" build="201101">
+		<key name=".Vanilla" modified="2021-10-27 14:52:23" build="201101">
 			<value name="StartType" type="hex" data="02"/>
 			<value name="CmdLine" type="string" data=""/>
 			<value name="StartTasksFile" type="string" data=""/>
@@ -297,7 +297,7 @@
 			<value name="Multi.ShowButtons" type="hex" data="01"/>
 			<value name="Multi.ShowSearch" type="hex" data="00"/>
 			<value name="Multi.NumberInCaption" type="hex" data="00"/>
-			<value name="Multi.CloseConfirmFlags" type="hex" data="07"/>
+			<value name="Multi.CloseConfirmFlags" type="hex" data="05"/>
 			<value name="Multi.NewConfirm" type="hex" data="00"/>
 			<value name="Multi.DupConfirm" type="hex" data="01"/>
 			<value name="Multi.DetachConfirm" type="hex" data="01"/>
@@ -342,8 +342,8 @@
 			<value name="Cascaded" type="hex" data="01"/>
 			<value name="IntegralSize" type="hex" data="00"/>
 			<value name="WindowMode" type="dword" data="0000051f"/>
-			<value name="ConWnd X" type="long" data="582"/>
-			<value name="ConWnd Y" type="long" data="227"/>
+			<value name="ConWnd X" type="long" data="126"/>
+			<value name="ConWnd Y" type="long" data="334"/>
 			<value name="LastMonitor" type="string" data="0,0,1920,1032"/>
 			<value name="ConWnd Width" type="dword" data="00000075"/>
 			<value name="ConWnd Height" type="dword" data="0000001d"/>
@@ -522,7 +522,7 @@
 			<value name="TabRecent" type="hex" data="01"/>
 			<value name="TabDblClick" type="ulong" data="1"/>
 			<value name="TabBtnDblClick" type="ulong" data="6"/>
-			<value name="TabsOnTaskBar" type="hex" data="02"/>
+			<value name="TabsOnTaskBar" type="hex" data="00"/>
 			<value name="TaskBarOverlay" type="hex" data="00"/>
 			<value name="TaskbarProgress" type="hex" data="01"/>
 			<value name="TabCloseMacro" type="string" data=""/>
@@ -607,23 +607,23 @@
 			<value name="Update.PostUpdateCmd" type="string" data="echo Last successful update&gt;ConEmuUpdate.info &amp;&amp; date /t&gt;&gt;ConEmuUpdate.info &amp;&amp; time /t&gt;&gt;ConEmuUpdate.info"/>
 			<key name="Tasks" modified="2021-08-16 19:05:01" build="210718">
 				<value name="Count" type="long" data="10"/>
-				<key name="Task1" modified="2021-08-17 18:58:10" build="210816">
+				<key name="Task1" modified="2021-10-27 14:41:46" build="201101">
 					<value name="Name" type="string" data="{Shells::cmd}"/>
 					<value name="Flags" type="dword" data="00000002"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
-					<value name="GuiArgs" type="string" data=""/>
+					<value name="GuiArgs" type="string" data=' /icon "%ConEmuDir%\Pcmd.exe"'/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 					<value name="Cmd1" type="string" data='cmd.exe /k "%ConEmuDir%\config\init.bat"  -new_console:d:%USERPROFILE%/Desktop'/>
 				</key>
-				<key name="Task2" modified="2021-08-16 19:05:01" build="210718">
+				<key name="Task2" modified="2021-10-27 14:51:23" build="201101">
 					<value name="Name" type="string" data="{Shells::cmd (Admin)}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
-					<value name="GuiArgs" type="string" data=""/>
+					<value name="GuiArgs" type="string" data=' /icon "%ConEmuDir%\Pcmd.exe"'/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
-					<value name="Cmd1" type="string" data='cmd.exe /k "%ConEmuBaseDir%\CmdInit.cmd" -new_console:a'/>
+					<value name="Cmd1" type="string" data='cmd.exe /k "%ConEmuDir%\config\init.bat"  -new_console:d:%USERPROFILE%/Desktop'/>
 				</key>
 				<key name="Task3" modified="2021-08-16 19:05:01" build="210718">
 					<value name="Name" type="string" data="{Shells::cmd-32}"/>

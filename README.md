@@ -26,5 +26,9 @@ geek = "%tools%/geek/geek.exe" $T
   - 添加 `hfs` 轻量级文件服务器工具，命令行使用  `hfs` 启动。
   - 添加 `winhex` 二进制查看修改工具，命令行使用 `winhex` 启动。
 - 2021-08-21
-  - 添加 `python` 环境，命令行使用 `python` 启动
+  - 添加 `python27` 环境，命令行使用 `python27` 启动。
   - 添加 `sqlmap` SQL注入检测工具，使用 `sqlmap` 启动工具。
+- 2021-10-28
+  - 添加 `windwos` 自带的环境变量。
+  - 添加 `Windows-Exploit` 漏洞扫描程序，使用 `exploit` 运行。
+  - 修改了任务栏只显示一个Pcmd活动窗口，顶部cmd图标使用Pcmd图标，取消了关闭需要点击确认按钮。
