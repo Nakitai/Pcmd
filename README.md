@@ -32,3 +32,7 @@ geek = "%tools%/geek/geek.exe" $T
   - 添加 `windwos` 自带的环境变量。
   - 添加 `Windows-Exploit` 漏洞扫描程序，使用 `exploit` 运行。
   - 修改了任务栏只显示一个Pcmd活动窗口，顶部cmd图标使用Pcmd图标，取消了关闭需要点击确认按钮。
+- 2021-12-29
+  - `时隔几个月又添加一些东西进去，实在是太懒了 !!!∑(ﾟДﾟノ)ノ`
+  - 添加 `WSExplorer` 程序网络抓包工具，使用 `wsexplorer` 命令启动。
+  - 添加 `SpaceSniffer` 磁盘文件扫描工具，使用 `Spaces` 命令启动。
