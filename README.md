@@ -36,3 +36,5 @@ geek = "%tools%/geek/geek.exe" $T
   - `时隔几个月又添加一些东西进去，实在是太懒了 !!!∑(ﾟДﾟノ)ノ`
   - 添加 `WSExplorer` 程序网络抓包工具，使用 `wsexplorer` 命令启动。
   - 添加 `SpaceSniffer` 磁盘文件扫描工具，使用 `Spaces` 命令启动。
+- 2022-01-20
+  - 添加 `wget` HTTP、HTTPS 和 FTP 协议检索文件的命令行实用程序，使用命令 `wget` 运行。
