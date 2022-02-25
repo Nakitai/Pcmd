@@ -38,5 +38,7 @@ geek = "%tools%/geek/geek.exe" $T
   - 添加 `SpaceSniffer` 磁盘文件扫描工具，使用 `Spaces` 命令启动。
 - 2022-01-20
   - 添加 `wget` HTTP、HTTPS 和 FTP 协议检索文件的命令行实用程序，使用命令 `wget` 运行。
+- 2022-02-25
+  - 添加 `adb` Android Debug Bridge tools，使用命令 `adb` 运行。
 
 
