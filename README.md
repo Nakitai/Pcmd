@@ -40,5 +40,7 @@ geek = "%tools%/geek/geek.exe" $T
   - 添加 `wget` HTTP、HTTPS 和 FTP 协议检索文件的命令行实用程序，使用命令 `wget` 运行。
 - 2022-02-25
   - 添加 `adb` Android Debug Bridge tools，使用命令 `adb` 运行。
+- 2022-03-02
+  - 添加 `scrcpy` 通过 `USB/TCP/IP` 连接 `Android` 设备的显示和控制程序, 使用 `scrcpy -h` 查看帮助命令。
 
 
