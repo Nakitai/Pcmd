@@ -16,7 +16,8 @@
 geek = "%tools%/geek/geek.exe" $T
 ```
 3. 这里 `=号` 前面 `geek` 是终端的运行命令，`=号` 后面是程序的路径 `%tools%` 就是 `tools` 目录路径。
-4. 我们终端运行 `geek`，注：如果没有生效请 `ctrl + t` 新建一个窗口在运行。
+4. 注意：`$T` 表示命令到此结束，`$*` 表示可以追加参数，例：`sqlmap -r 1.txt` 这里 `-r 1.txt` 就是追加参数。
+5. 我们终端运行 `geek`，注：如果没有生效请 `ctrl + t` 新建一个窗口在运行。
 
 # 更新日志
 - 2021-08-19
@@ -42,5 +43,8 @@ geek = "%tools%/geek/geek.exe" $T
   - 添加 `adb` Android Debug Bridge tools，使用命令 `adb` 运行。
 - 2022-03-02
   - 添加 `scrcpy` 通过 `USB/TCP/IP` 连接 `Android` 设备的显示和控制程序, 使用 `scrcpy -h` 查看帮助命令。
+- 2022-04-05
+  - 追加过滤文件 `base/PortableGit/usr/bin/.wget-hsts`。
+  - 添加 `upx` 可执行程序文件压缩工具，使用命令 `upx` 运行。
 
 
