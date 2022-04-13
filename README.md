@@ -46,5 +46,8 @@ geek = "%tools%/geek/geek.exe" $T
 - 2022-04-05
   - 追加过滤文件 `base/PortableGit/usr/bin/.wget-hsts`。
   - 添加 `upx` 可执行程序文件压缩工具，使用命令 `upx` 运行。
+- 2022-04-13
+  - 修改了窗口背景图片。
+  - 添加 `cloc` 代码行数统计工具，使用命令 `cloc` 运行。
 
 
