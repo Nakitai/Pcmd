@@ -49,5 +49,6 @@ geek = "%tools%/geek/geek.exe" $T
 - 2022-04-13
   - 修改了窗口背景图片。
   - 添加 `cloc` 代码行数统计工具，使用命令 `cloc` 运行。
-
+- 2022-04-18
+  - 添加 `naabu` Go语言开发的[开源](https://github.com/projectdiscovery/naabu)端口扫描工具，使用命令 `naabu -h` 运行帮助信息。
 
