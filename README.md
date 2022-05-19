@@ -51,4 +51,5 @@ geek = "%tools%/geek/geek.exe" $T
   - 添加 `cloc` 代码行数统计工具，使用命令 `cloc` 运行。
 - 2022-04-18
   - 添加 `naabu` Go语言开发的[开源](https://github.com/projectdiscovery/naabu)端口扫描工具，使用命令 `naabu -h` 运行帮助信息。
-
+- 2022-05-19
+  - 添加 `jd-gui` 可显示 `.class` 文件的 `Java` 源代码，使用命令 `jd-gui` 运行。
