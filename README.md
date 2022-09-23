@@ -53,3 +53,6 @@ geek = "%tools%/geek/geek.exe" $T
   - 添加 `naabu` Go语言开发的[开源](https://github.com/projectdiscovery/naabu)端口扫描工具，使用命令 `naabu -h` 运行帮助信息。
 - 2022-05-19
   - 添加 `jd-gui` 可显示 `.class` 文件的 `Java` 源代码，使用命令 `jd-gui` 运行。
+- 2022-09-23
+  - 更新 `geek.exe` 可干净卸载安装过的程序，使用命令 `geek` 运行。
+  - 添加窗口背景图片，并更改了了背景。
